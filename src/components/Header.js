@@ -115,6 +115,7 @@ export function Header() {
                 <a
                   className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
                   href="https://blog.csdn.net/u013351484?type=blog"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   早期博客
