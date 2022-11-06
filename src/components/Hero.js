@@ -3,7 +3,7 @@ import ArticleIntro from "../components/articleIntro";
 
 export function Hero() {
   return (
-    <div className="">
+    <div className="margin">
       <div className="lg:grid grid-cols-2">
         <div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0">
           <div className="xl:max-w-xl">

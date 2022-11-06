@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .margin {
+    @apply px-2 sm:px-8 lg:px-16 2xl:px-36 2k:px-48 4k:px-96;
+  }
+}
+
 html,
 body {
   padding: 0;
