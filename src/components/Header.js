@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export function Header() {
   return (
     <header className="sticky bg-white top-0 z-50">
