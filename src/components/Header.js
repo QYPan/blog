@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Header() {
   return (
     <header className="sticky bg-white top-0 z-50">
@@ -10,9 +12,11 @@ export function Header() {
               alt="first picture"
             />
             <h1 className="px-2 font-semibold text-xl lg:text-2xl 2xl:px-6 2xl:text-3xl 4k:text-5xl">
-              <a href="/">
-                最爱午后<span className="text-red-400">红茶</span>
-              </a>
+              <Link href="/" passHref>
+                <a rel="home" aria-current="page">
+                  最爱午后<span className="text-red-400">红茶</span>
+                </a>
+              </Link>
             </h1>
           </div>
           <div className="lg:text-xl 2xl:text-2xl flex gap-6 4k:gap-14 4k:text-4xl">
