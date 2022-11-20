@@ -89,9 +89,11 @@ export function Header() {
               <button className="py-8 group-hover:text-red-500">阅读</button>
               <div className="absolute hidden group-hover:block z-10 w-48 -right-20 gap-4">
                 <div className="grid grid-cols-2 p-2">
-                  <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
-                    <Link href="/books">读书</Link>
-                  </div>
+                  <Link href="/books">
+                    <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                      读书
+                    </div>
+                  </Link>
                   <a
                     href="#"
                     className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
