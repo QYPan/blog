@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Header() {
   return (
     <header className="sticky bg-white top-0 z-50">
@@ -10,7 +12,9 @@ export function Header() {
               alt="first picture"
             />
             <h1 className="px-2 font-semibold text-xl lg:text-2xl 2xl:px-6 2xl:text-3xl 4k:text-5xl">
-              最爱午后<span className="text-red-400">红茶</span>
+              <a href="/">
+                最爱午后<span className="text-red-400">红茶</span>
+              </a>
             </h1>
           </div>
           <div className="lg:text-xl 2xl:text-2xl flex gap-6 4k:gap-14 4k:text-4xl">
@@ -84,7 +88,7 @@ export function Header() {
               <div className="absolute hidden group-hover:block z-10 w-48 -right-20 gap-4">
                 <div className="grid grid-cols-2 p-2">
                   <a
-                    href="#"
+                    href="/books"
                     className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
                   >
                     读书
