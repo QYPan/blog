@@ -62,7 +62,7 @@ export default [
     pageUrl: "#",
   },
   {
-    name: "C与指针",
+    name: "C和指针",
     imageUrl: "/assert/images/pointers-on-c.jpg",
     imageAlt: "logo",
     pageUrl: "#",

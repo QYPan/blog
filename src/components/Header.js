@@ -27,48 +27,41 @@ export function Header() {
               <div className="absolute hidden group-hover:block z-10 w-96 -right-36 gap-4">
                 <div className="p-2">
                   <div className="grid grid-cols-3 border-b-2 bg-gray-200">
-                    <a
-                      href="#"
-                      className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
-                    >
-                      音视频
-                    </a>
-                    <a
-                      href="#"
-                      className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
-                    >
-                      系统平台
-                    </a>
-                    <a
-                      href="#"
-                      className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
-                    >
-                      编程语言
-                    </a>
-                    <a
-                      href="#"
-                      className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
-                    >
-                      工具
-                    </a>
-                    <a
-                      href="#"
-                      className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
-                    >
-                      数据结构
-                    </a>
-                    <a
-                      href="#"
-                      className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
-                    >
-                      跨学科
-                    </a>
-                    <a
-                      href="#"
-                      className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
-                    >
-                      游戏
-                    </a>
+                    <Link href="/skills/av">
+                      <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                        音视频
+                      </div>
+                    </Link>
+                    <Link href="/skills/systemPlatform">
+                      <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                        系统平台
+                      </div>
+                    </Link>
+                    <Link href="/skills/programmingLanguage">
+                      <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                        编程语言
+                      </div>
+                    </Link>
+                    <Link href="/skills/toolKit">
+                      <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                        工具
+                      </div>
+                    </Link>
+                    <Link href="/skills/dataStructure">
+                      <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                        数据结构
+                      </div>
+                    </Link>
+                    <Link href="/skills/multipleSubjects">
+                      <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                        跨学科
+                      </div>
+                    </Link>
+                    <Link href="/skills/game">
+                      <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                        游戏
+                      </div>
+                    </Link>
                     <Link href="/skills/english">
                       <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
                         英语
@@ -92,12 +85,11 @@ export function Header() {
                       读书
                     </div>
                   </Link>
-                  <a
-                    href="#"
-                    className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
-                  >
-                    读码
-                  </a>
+                  <Link href="/reading/sourceCode">
+                    <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                      读码
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -105,12 +97,11 @@ export function Header() {
               <button className="py-8 group-hover:text-red-500">影视</button>
               <div className="absolute hidden group-hover:block z-10 w-32 -right-10 text-center gap-4">
                 <div className="p-2">
-                  <a
-                    className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
-                    href="#"
-                  >
-                    随便看看
-                  </a>
+                  <Link href="/movie/movieList">
+                    <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                      随便看看
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -126,12 +117,11 @@ export function Header() {
                   >
                     早期博客
                   </a>
-                  <a
-                    className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400"
-                    href="#"
-                  >
-                    随便写写
-                  </a>
+                  <Link href="/more/record">
+                    <div className="block p-2 bg-gray-200 hover:bg-gray-300 hover:text-gray-800 active:bg-gray-400">
+                      随便写写
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
