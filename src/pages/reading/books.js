@@ -18,7 +18,7 @@ export default function Books() {
             className="py-6 flex flex-col items-center justify-center"
           >
             <button className="hover:-translate-y-1 hover:ring ring-blue-300 ring-offset-4 transform transition active:ring-blue-500">
-              <Link href="/reading/readBook">
+              <Link href={`/reading/md/books/${introInfo.title}/0`}>
                 <img
                   className="h-44 w-32 shadow-xl"
                   src={introInfo.imageUrl}

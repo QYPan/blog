@@ -1,9 +1,9 @@
 import { Layout } from "../components/Layout";
 
-export function ArticleLayout({ children, articleName }) {
+export function ArticleLayout({ children, articleData }) {
   return (
     <Layout>
-      <h1>XXXXXX</h1>
+      <h1>{articleData}</h1>
       <div className="lg:grid grid-cols-4">
         <div className="col-span-1">
           <h1>目录</h1>
